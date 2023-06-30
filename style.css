@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  font-family: serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.grid_item {
+  margin: 50px;
+}
+
+ul {
+  margin-left: 15px;
+  margin-top: 25px;
+}
